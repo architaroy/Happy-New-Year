@@ -1,0 +1,212 @@
+.head-container{
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover   ;
+     height: 600px;
+     justify-content: center;
+     text-align: center;
+     display: flex;
+   align-items: center;
+     
+ }
+ .cele-center{
+     justify-content: center;
+     align-items: center;
+ }
+ .head-newyear-container h3{
+     font-family:"Merriweather", serif;
+     font-size: 32px;
+     color: white;
+ }
+ .head-newyear-container h1{
+     font-family:"Merriweather", serif;
+     font-size: 72px;
+     font-weight:bold ;
+     color: white;
+ } 
+ .Percentage{
+    font-family: "Inter", sans-serif; 
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+ .our-holiday h3{
+    font-family: "Inter", sans-serif; 
+    font-size: 24px;
+    font-weight:500px ;
+    color: #FF0000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+ .our-holiday h2{
+    font-family: "Inter", sans-serif; 
+    font-size: 48px;
+    font-weight:bold;
+    color:#070211;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+ .our-holiday-image{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom:100px ;
+ }
+.welcome-container{
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 600px;
+     justify-content: center;
+     display: flex;
+   align-items: center;
+   gap: 100px;
+}
+.welcome-party-container h1{
+    font-family:"Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+}
+.welcome-party-container p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.welcome-party-container button{
+    font-family:"Inter", sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(137, 43, 226, 0);
+    border: none;
+
+}
+.schedule-container{
+    background: linear-gradient(#e664651A, #9198e51A);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    padding: 50px 0; 
+    text-align: center;  
+}
+.schedule-hotel-container p{
+    font-family:"Inter", sans-serif;
+    font-size: 32px;
+    font-weight:600px ;
+    color: #070211;
+}
+.schedule-hotel-park{
+    color: #FF0000;
+}
+.schedule-container-button{
+    background-color: #FF0000;
+    border: none;
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.new-offer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 15px;
+}
+.offer-container{
+    text-align: left;
+    margin-right: 50px;
+   
+}
+.offer-container h4{
+    font-family:"Inter", sans-serif;
+    font-size: 24px;
+    font-weight:500px;
+    color: #FF0000;
+}
+.offer-container h3{
+    font-family:"Merriweather", serif;
+    font-size: 48px;
+    font-weight:900px;
+    color: #070211;
+}
+.offer-container p{
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    color:#07021199 ;
+}
+.offer-container-year{
+    text-align: right;
+   margin-left: 50px;
+    
+}
+.offer-container-year h1{
+    font-family:"Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+
+}
+.offer-container-year p{
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    color:#07021199 ;
+}
+.holiday-container{
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 50px;
+   margin-top: 100px;
+}
+.holiday-container h5{
+    font-family:"Inter", sans-serif;
+    font-size: 24px;
+    font-weight:500px;
+    color: #070211;
+}
+.holiday-container h1{
+    font-family:"Merriweather", serif;
+    font-size: 72px;
+    font-weight:900px;
+    color: #070211;
+    margin: 10px 0;
+}
+.holiday-container-days{
+    color: #FF0000;
+}
+.holiday-container p{
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #07021199;
+}
+.discount-container{
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, 234px);
+}
+.percent-container{
+    display: flex;
+    transform: translate(-63px,0);
+}
+.shopping-image{
+    transform: translate(-150px, 0);
+    z-index: -1;
+}
