@@ -201,6 +201,7 @@
     display: flex;
     justify-content: space-between;
     transform: translate(0, 234px);
+   
 }
 .percent-container{
     display: flex;
@@ -210,19 +211,23 @@
     transform: translate(-150px, 0);
     z-index: -1;
 }
-.gifts-container h4{
+.gifts-container{
+    margin-top: 100px;
+}
+.gifts-best-container h4{
     font-family:"Inter", sans-serif;
     font-size: 24px;
     font-weight: 500px;
-    color: #FF0000;    
+    color: #FF0000;  
+    margin-top: 50px;
 }
-.gifts-container h1{
+.gifts-best-container h1{
     font-family:"Merriweather", serif;
     font-size: 48px;
     font-weight:900px;
     color: #070211;
 }
-.gifts-container p{
+.gifts-best-container p{
     font-family:"Inter", sans-serif;
     font-size: 20px;
     color:#07021199;
@@ -239,12 +244,8 @@
     margin-bottom: 50px;
     margin-top: 100px;
     height: 450px;
-}
-.subscribe-pic{
-   
-
-}
-    
+    padding: 50px 0px;
+}  
 .subscribe-text-container h2{
     font-family:"Merriweather", serif;
     font-size: 48px;
@@ -259,10 +260,9 @@
 }
 .subscribe-text-container input{
     border: none;
-    padding: 10px 15px; 
-    border-radius: 20px;
-    
-    
+    padding: 14px 30px; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .subscribe-text-container button{
     background-color:#FF0000 ;
@@ -270,7 +270,49 @@
     font-size: 20px;
     font-weight: 600;
     color: white;
-    padding: 2px 5px;
-    border-radius: 20px;
-    transform: translate(-5px,0);
-}     
+    padding: 7px 30px 10px 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none ;
+} 
+.street-container{
+    background-color:#070211;
+    height: 340px;
+}
+.street-container-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin: auto;
+}
+.street-container-flex p{
+    font-family:"Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.social-media-icon-container{
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin: auto;
+}
+.social-media-icon{
+    display: flex;
+    justify-content: center;
+}
+.unfollow{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.unfollow p{
+    font-family:"Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    color: white;
+}
+
+
+
